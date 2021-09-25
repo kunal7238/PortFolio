@@ -1,0 +1,454 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+ 
+body{
+  overflow-x: hidden;
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #083346;
+  padding: 0 120px;
+  /* position: sticky;
+  top: 0; */
+}
+
+.navbar h2 {
+  line-height: 70px;
+  float: left;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.navbar .menu {
+  float: right;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  line-height: 70px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+/* -------Navbar End-------- */
+/* -------Welcome Start-----*/
+.welcome {
+  /* height: 100vh; */
+  height:90vh;
+  background-color: #083346;
+}
+
+.wel-left {
+  float: left;
+  width: 50%;
+  background-color: #083346;
+  height: 90vh;
+  padding: 120px;
+}
+.wel-left .hello {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.wel-left .type {
+  font-size: 45px;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.wel-left .wel-left-button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.wel-right {
+  float: right;
+  width: 50%;
+  background-color: #083346;
+  height: 90vh;
+}
+
+.wel-right .img {
+  float: right;
+  padding: 0 120px;
+}
+
+/* -------About Section Start ------- */
+.about-left {
+  float: left;
+  height: 100vh;
+  padding: 120px;
+  width: 50%;
+}
+
+.about-right {
+  float: right;
+  height: 100vh;
+  width: 50%;
+  padding: 70px;
+}
+.about-right .head {
+  font-size: 35px;
+  font-weight: bold;
+  width: 80%;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.about-right .information {
+  margin-left: 20px;
+  margin-right: 60px;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.about-right .details {
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.about-right .details .data {
+  margin-bottom: 20px;
+}
+
+.about-right .details .data span {
+  width: 30%;
+  margin-right: 20px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about-right .download-btn {
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #083346;
+  color: #fff;
+}
+
+.skill .skill-left {
+  float: left;
+  height: 100vh;
+  padding: 80px 0 0 120px;
+  width: 55%;
+  background-color: #f0f8f9;
+}
+
+.skill .skill-left .skill-heading {
+  font-size: 44px;
+  font-weight: 600;
+  color: #083346;
+  width: 56%;
+}
+
+.skill-left .skill-items  {
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px -10px;
+  max-width: 100%;
+  justify-content:space-evenly ;
+}
+
+
+.skill-item img {
+  width: 100%;
+  margin: 0 6px;
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 5px;
+}
+
+.skill .skill-right{
+  float: right;
+  height: 100vh;
+  width: 45%;
+}
+/* ------- Work style ------- */
+.work {
+  height: 100%;
+}
+
+.work .work-left{
+  height: 100vh;
+  width: 50%;
+  float: left;
+}
+.work-left-box{
+  margin-left: 90px;
+}
+
+.work-left-space {
+  display: flex;
+  margin-top: 150px;
+}
+
+#vertical{
+  font-size: 2.9rem;
+  line-height: 1.1;
+  font-weight:600;
+  color: #083346;
+  transform:rotate(-90deg);
+  margin-top: -12px;
+  margin-right: -90px;
+}
+
+#vertical span{
+  font-size:4.4rem;
+  color:#0196c1;
+}
+
+.jurneytxt {
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+.jurneytxt p {
+  font-size: 2.2rem;
+    font-weight: 600;
+    color: #083346;
+    line-height: 38px;
+}
+
+.jurneytxt p span {
+  color:#0196c1;
+}
+
+.work .work-right{
+  height: 100vh;
+  width: 50%;
+  float: left;
+  background-color: rgb(165, 247, 165);
+}
+
+.work-right h1{
+  margin-top: 55px;
+  float: right;
+  margin-right: 90px;
+  font-weight: 600;
+  font-size: 44px;
+  width: 50%;
+}
+
+
+/* Portfolio Section Start  */
+
+.Portfolio {
+  height: 100%;
+}
+
+.port-left{
+  float: left;
+  height: 100vh;
+  width: 35%;
+ 
+}
+
+.portfolio-menu{
+  margin-top: 20px;
+  background-color: #083346;
+    padding: 70px 60px;
+}
+.portfolio-menu h2{
+  font-size: 72px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 18px;
+    text-align: left;
+}
+.portfolio-menu ul li.active{
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+
+.portfolio-menu ul li{
+  color: #fff;
+  cursor:pointer;
+  display: block;
+  text-align: left;
+}
+.port-list .port-item{
+  line-height: 35px;
+  padding:0;
+  margin: 0;
+  text-transform:none;
+  display: block;
+}
+
+.port-right{
+  float: right;
+  height: 100vh;
+  width: 65%;
+}
+
+.grid-list{
+  margin-top: 20px;
+  display:grid;
+  grid-template-columns: auto auto auto ;
+}
+
+/* Contact Section */
+.contact{
+  height: 100vh;
+  width: 100%;
+}
+
+.contact .greet-left{
+  float: left;
+  width: 50%;
+  height: 80%;
+  background: rgb(247, 247, 247);
+}
+
+#greet-box{
+  text-align: center;
+  padding: 30px 65px;
+}
+.contact .greet-left img{
+  width: 450px;
+  height: 338px;
+}
+
+#greet-box .greettxt{
+  font-size: 1.6rem;
+  color:#083346;
+}
+
+#greet-box .greet-ptext{
+  margin-left:100px;
+  margin-right:100px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.contact .message-right{
+  float: right;
+  width: 50%;
+  height: 80%;
+  background-color:#083346;
+}
+
+.message-right .text-area{
+  padding:100px;
+  width:100%;
+}
+
+
+.Form-group{
+ display:flex;
+ justify-content:space-between;
+}
+.field-same{
+  height:50px;
+  background-color: #516f7c;
+}
+
+fieldset{
+  width:220px;
+  border-style: none;
+}
+
+fieldset input {
+  color:white;
+  border-style: none;
+  outline: none;
+  width:100%;
+}
+::placeholder{
+  color:white;
+  padding-top: 10px;padding-left: 20px;
+}
+
+textarea{
+  resize: none;
+  width:100%;
+  margin-top: 30px;
+  background-color: #516f7c;
+  outline: none;
+  caret-color: #fff;
+}
+
+textarea::placeholder{
+  padding-top: 20px;padding-left: 20px;
+}
+
+
+.send-submit{
+  margin-top: 30px;
+  margin-left: 200px;
+  padding: 10px;
+  background-color: #046c95;
+  outline: none;
+  color: #fff;
+  border-style: none;
+}
+
+.footer{
+  
+  padding: 40px 120px;
+}
+
+
+.footer .copyright{
+  float: left;
+  width: 60%;
+  /* background-color:skyblue; */
+  height: 75px;
+}
+
+.copyright .copy-txt{
+  padding: 40px;
+}
+
+.copyright-p{
+  letter-spacing: 0.78px;
+}
+
+.footer .social-media{
+  float: right;
+  width: 40%;
+  height: 75px;
+  /* background-color:gray; */
+  text-align: right;
+  padding:10px;
+}
+
+
+
+.social-ul li i{
+  color: #046c95;
+}
+
+.social-ul li a{
+  font-size: 30px;
+ 
+}
