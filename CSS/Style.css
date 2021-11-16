@@ -186,11 +186,43 @@ ul li a {
   border-radius: 5px;
 }
 
+.soft h3{
+  color: #083346;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.soft .soft-item {
+  display: inline-block;
+  border: 1px solid black;
+  height: 7rem;
+  width: 7rem;
+  text-align: center;
+  border-radius: 100%;
+  /* margin: 1rem;  */
+  background-color: #0196c1;
+}
+
+/* .soft .outer-soft{
+  height: 8rem;
+  width: 8rem;
+  border: 5px solid #0196c1;
+  text-align: center;
+  border-radius: 100%;
+} */
+.soft .soft-item p{
+  padding-top: 3rem;
+}
+
+
 .skill .skill-right{
   float: right;
   height: 100vh;
   width: 45%;
 }
+
+
 /* ------- Work style ------- */
 .work {
   height: 100%;
