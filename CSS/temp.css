@@ -637,4 +637,28 @@ textarea::placeholder{
   margin-left: -48px;
 }
 
+.work{
+  flex-direction: column;
+}
+
+#vertical{
+  font-size: 2.2rem;
+    line-height: 0.9;
+    font-weight: 600;
+    margin-right: -80px;
+    margin-left: -20px;
+    margin-top: -3px;
+}
+/* #vertical span{
+  font-size:2.2rem;
+} */
+/* .jurneytxt p{
+  font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 40px;
+} */
+.work .animation img{
+  width:240px;
+  
+}
 }
