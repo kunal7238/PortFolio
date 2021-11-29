@@ -578,16 +578,17 @@ textarea::placeholder{
   .wel-left{
     text-align: center;
     width: auto;
-    margin-left: -50px;
+    margin-left: -39px;
   }
 
   .wel-right{
     width: auto;
+    height: 70%;
   }
 
   .wel-right .img{
-    width: 75%;
-    margin-top: -150px;
+    width: 76%;
+    margin-top: -180px;
   }
 
   .about{
