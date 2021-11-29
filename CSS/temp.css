@@ -556,12 +556,12 @@ textarea::placeholder{
 
 
 
-@media only screen and  (max-width: 480px) {
+@media only screen and  (max-width: 380px) {
   body {
     overflow-x: hidden;
   }
   .navbar{
-    width: 538px;
+    width: auto;
   }
   .navbar .menu {
     display: none;
@@ -578,6 +578,7 @@ textarea::placeholder{
   .wel-left{
     text-align: center;
     width: auto;
+    margin-left: -50px;
   }
 
   .wel-right{
