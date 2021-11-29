@@ -4,31 +4,26 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
-html{
-  font-size: 62.5%;
-}
-
+ 
 body{
   overflow-x: hidden;
 }
-
 .navbar {
   width: 100%;
   height: 10vh;
   background-color: #083346;
-  padding: 0 12rem;
-  /* position: sticky; */
-  /* top: 0; */
+  padding: 0 120px;
+  /* position: sticky;
+  top: 0; */
 }
 
 .navbar h2 {
-  line-height: 7rem;
+  line-height: 70px;
   float: left;
   color: white;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 .navbar .menu {
@@ -38,8 +33,8 @@ body{
 
 ul li {
   display: inline-block;
-  line-height: 7rem;
-  padding: 0 2rem;
+  line-height: 70px;
+  padding: 0 20px;
   text-transform: uppercase;
 }
 
@@ -47,7 +42,7 @@ ul li a {
   text-decoration: none;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
+  font-size: 13px;
 }
 
 /* -------Navbar End-------- */
@@ -63,27 +58,27 @@ ul li a {
   width: 50%;
   background-color: #083346;
   height: 90vh;
-  padding: 12rem;
+  padding: 120px;
 }
 .wel-left .hello {
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: 500;
   color: white;
-  padding-bottom: 1rem;
+  padding-bottom: 10px;
 }
 
 .wel-left .type {
-  font-size: 4.5rem;
+  font-size: 45px;
   color: white;
   font-weight: 600;
-  padding-bottom: 2rem;
+  padding-bottom: 20px;
 }
 
 .wel-left .wel-left-button {
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 10px;
+  font-size: 15px;
   font-weight: bold;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .wel-right {
@@ -95,7 +90,7 @@ ul li a {
 
 .wel-right .img {
   float: right;
-  padding: 0 12rem;
+  padding: 0 120px;
   height: 2rem;
 }
 
@@ -103,7 +98,7 @@ ul li a {
 .about-left {
   float: left;
   height: 100vh;
-  padding: 12rem;
+  padding: 120px;
   width: 50%;
 }
 
@@ -111,49 +106,49 @@ ul li a {
   float: right;
   height: 100vh;
   width: 50%;
-  padding: 7rem;
+  padding: 70px;
 }
 .about-right .head {
-  font-size: 3.8rem;
+  font-size: 35px;
   font-weight: bold;
   width: 80%;
-  height: 4rem;
-  margin-top: 5rem;
-  margin-left: 2rem;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .about-right .information {
-  margin-left: 2.3rem;
-  margin-right: 6rem;
-  font-size: 2rem;
-  padding-top: 1.5rem;
+  margin-left: 20px;
+  margin-right: 60px;
+  font-size: 20px;
+  padding-top: 15px;
 }
 
 .about-right .details {
-  margin-left: 2rem;
-  margin-top: 3rem;
+  margin-left: 20px;
+  margin-top: 30px;
   padding: auto;
   width: 80%;
-  margin-bottom: 5rem;
+  margin-bottom: 50px;
 }
 
 .about-right .details .data {
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 .about-right .details .data span {
   width: 30%;
-  margin-right: 2rem;
+  margin-right: 20px;
   display: inline-block;
   font-weight: bold;
-  font-size: 1.9rem;
+  font-size: 18px;
 }
 
 .about-right .download-btn {
   text-decoration: none;
-  margin-left: 2rem;
-  padding: 1rem;
-  margin-top: 1rem;
+  margin-left: 20px;
+  padding: 10px;
+  margin-top: 10px;
   background-color: #083346;
   color: #fff;
 }
@@ -161,13 +156,13 @@ ul li a {
 .skill .skill-left {
   float: left;
   height: 100vh;
-  padding: 80rem 0 0 120rem;
+  padding: 80px 0 0 120px;
   width: 55%;
   background-color: #f0f8f9;
 }
 
 .skill .skill-left .skill-heading {
-  font-size: 4.4rem;
+  font-size: 44px;
   font-weight: 600;
   color: #083346;
   width: 56%;
@@ -177,7 +172,7 @@ ul li a {
   display: -webkit-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 3rem -1rem;
+  margin: 30px -10px;
   max-width: 100%;
   justify-content:space-evenly ;
 }
@@ -185,22 +180,22 @@ ul li a {
 
 .skill-item img {
   width: 100%;
-  margin: 0 .6rem;
-  max-width: 4rem;
-  max-height: 4rem;
-  border-radius: .5rem;
+  margin: 0 6px;
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 5px;
 }
 
 .soft h3{
   color: #083346;
   font-weight: 900;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 .soft .soft-item {
   display: inline-block;
-  border: .1rem solid black;
+  border: 1px solid black;
   height: 7rem;
   width: 7rem;
   text-align: center;
@@ -212,7 +207,7 @@ ul li a {
 /* .soft .outer-soft{
   height: 8rem;
   width: 8rem;
-  border: 5rem solid #0196c1;
+  border: 5px solid #0196c1;
   text-align: center;
   border-radius: 100%;
 } */
@@ -239,12 +234,12 @@ ul li a {
   float: left;
 }
 .work-left-box{
-  margin-left: 9rem;
+  margin-left: 90px;
 }
 
 .work-left-space {
   display: flex;
-  margin-top: 15rem;
+  margin-top: 150px;
 }
 
 #vertical{
@@ -253,8 +248,8 @@ ul li a {
   font-weight:600;
   color: #083346;
   transform:rotate(-90deg);
-  margin-top: -1.2rem;
-  margin-right: -9rem;
+  margin-top: -12px;
+  margin-right: -90px;
 }
 
 #vertical span{
@@ -271,7 +266,7 @@ ul li a {
   font-size: 2.2rem;
     font-weight: 600;
     color: #083346;
-    line-height: 3.8rem;
+    line-height: 38px;
 }
 
 .jurneytxt p span {
@@ -286,11 +281,11 @@ ul li a {
 }
 
 .work-right h1{
-  margin-top: 5.5rem;
+  margin-top: 55px;
   float: right;
-  /* margin-right: 60rem; */
+  /* margin-right: 60px; */
   font-weight: 600;
-  font-size: 4.4rem;
+  font-size: 44px;
   width: 50%;
 }
 
@@ -301,7 +296,7 @@ ul li a {
 .edu-college{
   width: 20rem;
   height: 11rem;
-  border: .1rem solid gray;
+  border: 1px solid gray;
   text-align: center;
 }
 
@@ -334,7 +329,7 @@ ul li a {
   margin-top:2rem;
   width: 20rem;
   height: 11rem;
-  border: .1rem solid gray;
+  border: 1px solid gray;
   text-align: center;
 }
 
@@ -377,15 +372,15 @@ ul li a {
 }
 
 .portfolio-menu{
-  margin-top: 2rem;
+  margin-top: 20px;
   background-color: #083346;
-    padding: 7rem 6rem;
+    padding: 70px 60px;
 }
 .portfolio-menu h2{
-  font-size: 7.2rem;
+  font-size: 72px;
     color: #fff;
     font-weight: 700;
-    margin-bottom: 1.8rem;
+    margin-bottom: 18px;
     text-align: left;
 }
 .portfolio-menu ul li.active{
@@ -402,7 +397,7 @@ ul li a {
   text-align: left;
 }
 .port-list .port-item{
-  line-height: 3.5rem;
+  line-height: 35px;
   padding:0;
   margin: 0;
   text-transform:none;
@@ -416,7 +411,7 @@ ul li a {
 }
 
 .grid-list{
-  margin-top: 2rem;
+  margin-top: 20px;
   display:grid;
   grid-template-columns: auto auto auto ;
 }
@@ -436,11 +431,11 @@ ul li a {
 
 #greet-box{
   text-align: center;
-  padding: 3rem 6.5rem;
+  padding: 30px 65px;
 }
 .contact .greet-left img{
-  width: 45rem;
-  height: 33.8rem;
+  width: 450px;
+  height: 338px;
 }
 
 #greet-box .greettxt{
@@ -449,8 +444,8 @@ ul li a {
 }
 
 #greet-box .greet-ptext{
-  margin-left:10rem;
-  margin-right:10rem;
+  margin-left:100px;
+  margin-right:100px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -464,7 +459,7 @@ ul li a {
 }
 
 .message-right .text-area{
-  padding:10rem;
+  padding:100px;
   width:100%;
 }
 
@@ -474,12 +469,12 @@ ul li a {
  justify-content:space-between;
 }
 .field-same{
-  height:5rem;
+  height:50px;
   background-color: #516f7c;
 }
 
 fieldset{
-  width:22rem;
+  width:220px;
   border-style: none;
 }
 
@@ -491,27 +486,27 @@ fieldset input {
 }
 ::placeholder{
   color:white;
-  padding-top: 1rem;padding-left: 2rem;
+  padding-top: 10px;padding-left: 20px;
 }
 
 textarea{
   resize: none;
   width:100%;
-  margin-top: 3rem;
+  margin-top: 30px;
   background-color: #516f7c;
   outline: none;
   caret-color: #fff;
 }
 
 textarea::placeholder{
-  padding-top: 2rem;padding-left: 2rem;
+  padding-top: 20px;padding-left: 20px;
 }
 
 
 .send-submit{
-  margin-top: 3rem;
-  margin-left: 20rem;
-  padding: 1rem;
+  margin-top: 30px;
+  margin-left: 200px;
+  padding: 10px;
   background-color: #046c95;
   outline: none;
   color: #fff;
@@ -520,7 +515,7 @@ textarea::placeholder{
 
 .footer{
   
-  padding: 4rem 12rem;
+  padding: 40px 120px;
 }
 
 
@@ -528,24 +523,24 @@ textarea::placeholder{
   float: left;
   width: 60%;
   /* background-color:skyblue; */
-  height: 7.5rem;
+  height: 75px;
 }
 
 .copyright .copy-txt{
-  padding: 4rem;
+  padding: 40px;
 }
 
 .copyright-p{
-  letter-spacing: 0.078rem;
+  letter-spacing: 0.78px;
 }
 
 .footer .social-media{
   float: right;
   width: 40%;
-  height: 7.5rem;
+  height: 75px;
   /* background-color:gray; */
   text-align: right;
-  padding:1rem;
+  padding:10px;
 }
 
 
@@ -555,7 +550,7 @@ textarea::placeholder{
 }
 
 .social-ul li a{
-  font-size: 3rem;
+  font-size: 30px;
  
 }
 
@@ -566,22 +561,71 @@ textarea::placeholder{
   }
 
   .navbar h2{
-    margin-left: -7rem;
+    margin-left: -80px;
   }
 
   .welcome{
-    height: 100vh;
-    width: 100vw;
-    display: block;
+    flex-direction: column;
   }
-}
-/* 
-@media (max-width:998px){
   
+  .wel-left{
+    text-align: center;
+    width: auto;
+  }
+
+  .wel-right{
+    width: auto;
+  }
+
+  .wel-right .img{
+    width: 89%;
+    margin-top: -150px;
+  }
+
+  .about{
+    flex-direction: column;
+  }
+
+  .about-left .myimage{
+    margin-left: -105px;
+  }
+
+  .about-right {
+    text-align: center;
+    width: auto;
+  }
+
+  .about-right .head {
+    font-size: 27px;
+  }
+
+  .about-right .information {
+    font-size: 17px;
+  }
+
+  .about-right .details {
+    margin-left: 3px;
+    margin-top: 39px;
+    
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 50px;
+  }
+
+  /* .about-right .details .data .same-level{
+    font-size: 17px;
+    display: contents;
+  } */
+
+  .about-right .details .data span {
+    width: 30%;
+    margin-right: -21px;
+    display: contents;
+    font-weight: bold;
+    font-size: 19px;
+}
+.about-right a.download-btn {
+  margin-left: -48px;
 }
 
-
-@media (max-width:768px){
-  
-} */
-
+}
