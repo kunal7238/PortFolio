@@ -598,18 +598,23 @@ textarea::placeholder{
   .about-left .myimage{
     margin-left: -105px;
   }
+  .about-left img{
+    width: 350px;
+    height: 350px;
+  }
 
   .about-right {
+    margin-top: -150px;
     text-align: center;
     width: auto;
   }
 
   .about-right .head {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .about-right .information {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .about-right .details {
