@@ -555,7 +555,8 @@ textarea::placeholder{
 }
 
 
-@media (max-width: 538px) {
+
+@media only screen and  (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
@@ -617,11 +618,6 @@ textarea::placeholder{
     font-size: 17px;
     margin-bottom: 50px;
   }
-
-  /* .about-right .details .data .same-level{
-    font-size: 17px;
-    display: contents;
-  } */
 
   .about-right .details .data span {
     width: 30%;
