@@ -96,10 +96,7 @@ ul li a {
 
 /* -------About Section Start ------- */
 
-.about{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .about-left {
   float: left;
   height: 100vh;
@@ -564,7 +561,7 @@ textarea::placeholder{
 @media only screen and  (max-width: 420px) {
  html, body {
     overflow-x: hidden;
-    width: 420px;
+   
   }
   .navbar{
     width: auto;
@@ -599,11 +596,7 @@ textarea::placeholder{
 
   .about{
     flex-direction: column;
-    margin-top: 300px;
-  }
-
-  .about-left{
-    width: auto;
+    
   }
 
   .about-left .myimage{
