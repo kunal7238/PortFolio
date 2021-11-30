@@ -697,4 +697,7 @@ margin: 0;
   margin-left: -123px;
 }
 
+.portfolio .portfolio-outer .port-left{
+  width: 420px;
+}
 }
