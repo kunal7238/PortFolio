@@ -559,6 +559,7 @@ textarea::placeholder{
 @media only screen and  (max-width: 420px) {
  html, body {
     overflow-x: hidden;
+    
   }
   .navbar{
     width: auto;
@@ -610,7 +611,8 @@ textarea::placeholder{
   }
 
   .about-right .head {
-    font-size: 23px;
+    font-size: 20px;
+    margin-top: auto;
   }
 
   .about-right .information {
