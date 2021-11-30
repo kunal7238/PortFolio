@@ -738,4 +738,8 @@ height: auto;
 .contact .greet-left #greet-box .greettxt{
   margin-left: -227px;
  }
+
+ .contact .message-right{
+  width: 100%;
+ }
 }
