@@ -709,16 +709,32 @@ margin: 0;
 
 .portfolio .portfolio-outer .port-right{
 width: 420px;
+height: auto;
 }
 .portfolio .portfolio-outer .port-right .grid-list{
-  display:block;
-  margin-top: -115px;
+  display: flex;
+    flex-wrap: wrap;
+    margin-top: -115px;
 }
 .portfolio .portfolio-outer .port-right .grid-list img{
-  width: 100%;
-  height: 245px;
+  width: 140px;
+  height: 140px;
+
 }
 .contact{
-  display:block;
+  display: grid;
 }
+.contact .greet-left{
+  width: 100%;
+    margin-top: -3px;
+}
+.contact .greet-left #greet-box{
+ padding: 0;
+}
+.contact .greet-left #greet-box img{
+  margin-left: -220px;
+}
+.contact .greet-left #greet-box .greettxt{
+  margin-left: -227px;
+ }
 }
