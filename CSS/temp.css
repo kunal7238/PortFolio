@@ -715,11 +715,12 @@ height: auto;
   display: flex;
     flex-wrap: wrap;
     margin-top: -115px;
+    padding: 2px;
 }
 .portfolio .portfolio-outer .port-right .grid-list img{
   width: 138px;
   height: 140px;
-  margin: 0 1px;
+  
 }
 .contact{
   display: grid;
