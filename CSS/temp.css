@@ -666,4 +666,19 @@ textarea::placeholder{
   width:240px;
   
 }
+
+.skill{
+  flex-wrap: wrap;
+}
+
+.skill .skill-left{
+  width:auto;
+  text-align: center;
+  padding: 0;
+}
+.skill .skill-left .skill-heading{
+  font-size: 24px;
+  width: auto;
+  margin-top: 30px;
+}
 }
