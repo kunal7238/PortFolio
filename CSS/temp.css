@@ -717,9 +717,9 @@ height: auto;
     margin-top: -115px;
 }
 .portfolio .portfolio-outer .port-right .grid-list img{
-  width: 140px;
+  width: 138px;
   height: 140px;
-
+  margin: 0 1px;
 }
 .contact{
   display: grid;
@@ -732,7 +732,7 @@ height: auto;
  padding: 0;
 }
 .contact .greet-left #greet-box img{
-  margin-left: -220px;
+  margin-left: -240px;
 }
 .contact .greet-left #greet-box .greettxt{
   margin-left: -227px;
