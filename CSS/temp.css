@@ -663,7 +663,7 @@ margin: 0;
 }
 
 .work .work-left .work-left-box .work-left-space #vertical{
-  font-size: 25px;
+  font-size: 28px;
   margin-top: 5px;
 }
 .work .work-left .work-left-box .work-left-space #vertical span{
@@ -681,13 +681,13 @@ margin: 0;
   width: 275px;
 }
 .work .work-left .work-left-box .jurneytxt{
-  width: auto;
+  width: 420px;
   margin: 0;
   padding: 0;
 }
 
 .work .work-left .work-left-box .jurneytxt p{
-  font-size: 1.1rem;
+  font-size: 28px;
 }
 
 }
