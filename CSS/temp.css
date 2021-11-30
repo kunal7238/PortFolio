@@ -688,6 +688,13 @@ margin: 0;
 
 .work .work-left .work-left-box .jurneytxt p{
   font-size: 28px;
+  margin-left: 10px;
+}
+
+.work .work-right{
+  margin-top: -258px;
+  width: 420px;
+  margin-left: -112px;
 }
 
 }
