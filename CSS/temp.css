@@ -206,13 +206,7 @@ ul li a {
   background-color: #0196c1;
 }
 
-/* .soft .outer-soft{
-  height: 8rem;
-  width: 8rem;
-  border: 5px solid #0196c1;
-  text-align: center;
-  border-radius: 100%;
-} */
+
 .soft .soft-item p{
   padding-top: 3rem;
 }
@@ -680,6 +674,7 @@ margin: 0;
 .work .work-left .work-left-box .work-left-space{
   margin-top: 50px;
     padding: 2px;
+    margin-left: 5px;
 }
 
 .work .work-left .work-left-box .work-left-space .animation img{
