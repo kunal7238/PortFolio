@@ -667,14 +667,6 @@ textarea::placeholder{
 .work .work-left .work-left-box{
 margin: 0;
 }
-/* .work-left-box{
-  margin-left: 90px;
-} */
-
-/* .work-left-space {
-  display: flex;
-  margin-top: 120px;
-} */
 
 .work .work-left .work-left-box .work-left-space #vertical{
   font-size: 25px;
@@ -689,7 +681,7 @@ margin: 0;
   margin-top: 50px;
     padding: 2px;
 }
-}
+
 .work .work-left .work-left-box .work-left-space .animation img{
   width: 275px;
 }
@@ -703,4 +695,4 @@ margin: 0;
   font-size: 1.1rem;
 }
 
-
+}
