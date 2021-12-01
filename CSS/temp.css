@@ -771,4 +771,21 @@ height: auto;
  .contact .message-right .message-container .text-area .btn-send{
   margin: -35px;
  }
+
+ .footer{
+   display: flex;
+   flex-direction: column-reverse;
+ }
+ .footer .copyright{
+  display: flex;
+    width: 420px;
+    margin-left: -114px;
+    margin-top: -40px;
+ }
+ .footer .social-media{
+  display: flex;
+  width: 420px;
+  margin-left: -98px;
+  margin-top: -40px;
+ }
 }
