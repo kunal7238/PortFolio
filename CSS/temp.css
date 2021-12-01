@@ -728,6 +728,7 @@ height: auto;
 .contact .greet-left{
   width: 100%;
     margin-top: -3px;
+    padding-left: 205px;
 }
 .contact .greet-left #greet-box{
  padding: 0;
@@ -741,5 +742,9 @@ height: auto;
 
  .contact .message-right{
   width: 100%;
+ }
+ .contact .message-right .text-area{
+  width: 100%;
+  padding:0;
  }
 }
