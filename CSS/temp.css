@@ -605,7 +605,7 @@ textarea::placeholder{
 
   .about-left .myimage{
     margin-left: -105px;
-    margin-top: -120px;
+    margin-top: -107px;
   }
   .about-left img{
     width: 350px;
@@ -616,6 +616,7 @@ textarea::placeholder{
     margin-top: -85px;
     width: auto;
     margin-left: -50px;
+    height: 564px;
   }
 
   .about-right .head {
@@ -657,7 +658,7 @@ textarea::placeholder{
   width:auto;
   text-align: center;
   padding: 0;
-  margin-top: -115px;
+  margin-top: -61px;
 }
 .skill .skill-left .skill-heading{
   font-size: 24px;
