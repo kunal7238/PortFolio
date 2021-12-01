@@ -628,7 +628,7 @@ textarea::placeholder{
   }
 
   .about-right .details {
-    margin-left: 3px;
+    margin-left: 19px;
     margin-top: 39px;
     
     width: 80%;
@@ -644,7 +644,7 @@ textarea::placeholder{
     font-size: 19px;
 }
 .about-right a.download-btn {
-  margin-left: 4px;
+  margin-left: 19px;
 }
 
 
