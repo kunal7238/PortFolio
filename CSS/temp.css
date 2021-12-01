@@ -779,13 +779,13 @@ height: auto;
  .footer .copyright{
   display: flex;
     width: 420px;
-    margin-left: -114px;
+    margin-left: -120px;
     margin-top: -40px;
  }
  .footer .social-media{
   display: flex;
   width: 420px;
-  margin-left: -98px;
+  margin-left: -105px;
   margin-top: -40px;
  }
 }
