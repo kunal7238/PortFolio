@@ -722,9 +722,7 @@ height: auto;
   height: 140px;
   
 }
-.contact{
-  display: grid;
-}
+
 .contact .greet-left{
   width: 100%;
     margin-top: -3px;
@@ -745,6 +743,32 @@ height: auto;
  }
  .contact .message-right .text-area{
   width: 100%;
-  padding:0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+ }
+ .contact .message-right .text-area .Form-group{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+ }
+ .contact .message-right .text-area .Form-group .fname{
+  margin-bottom: 15px;
+ }
+ .contact .message-right .text-area .Form-group .fname fieldset{
+  width: 100%;
+ }
+ .contact .message-right .text-area .Form-group .Email fieldset{
+  width: 100%;
+ }
+ .contact .message-right .text-area textarea{
+   margin: 0;
+ }
+ .contact .message-right .message-container .text-area .txtmsgBox{
+  padding: 50px;
+    margin-top: -58px
+ }
+ .contact .message-right .message-container .text-area .btn-send{
+  margin: -35px;
  }
 }
