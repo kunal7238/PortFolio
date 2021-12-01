@@ -741,6 +741,7 @@ height: auto;
  .contact .message-right{
   width: 100%;
   height: 460px;
+  margin-top: -70px;
  }
  .contact .message-right .text-area{
   width: 100%;
