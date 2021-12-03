@@ -671,6 +671,10 @@ textarea::placeholder{
   flex-direction: column;
 }
 
+.work .work-left {
+  height: 50%;
+}
+
 .work .work-left .work-left-box{
 margin: 0;
 }
@@ -705,7 +709,7 @@ margin: 0;
 }
 
 .work .work-right{
-  margin-top: -320px;
+  margin-top: -262px;
   width: 420px;
   margin-left: -123px;
 }
