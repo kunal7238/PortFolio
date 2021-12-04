@@ -104,6 +104,15 @@ ul li a {
   width: 50%;
 }
 
+.about-left .myimage{
+  margin-left: 60px;
+}
+.about-left .myimage img{
+  margin-top: -60px;
+  width: 100%;
+  height: 100%;
+}
+
 .about-right {
   float: right;
   height: 100vh;
@@ -604,10 +613,10 @@ textarea::placeholder{
   }
 
   .about-left .myimage{
-    margin-left: -105px;
-    margin-top: -107px;
+    margin-left: -97px;
+    margin-top: -54px;
   }
-  .about-left img{
+  .about-left .myimage img{
     width: 350px;
     height: 350px;
   }
@@ -615,7 +624,7 @@ textarea::placeholder{
   .about-right {
     margin-top: -85px;
     width: auto;
-    margin-left: -50px;
+    margin-left: -29px;
     height: 564px;
   }
 
