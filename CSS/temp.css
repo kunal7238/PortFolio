@@ -718,9 +718,10 @@ margin: 0;
 }
 
 .work .work-right{
-  margin-top: -262px;
-  width: 420px;
-  margin-left: -123px;
+  margin-top: -244px;
+    width: 420px;
+    margin-left: -123px;
+    height: 100%;
 }
 
 .portfolio .portfolio-outer .port-left{
